@@ -1,0 +1,17 @@
+@'
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+backend/uploads/
+backend/storage/
+backend/data/
+*.db
+*.sqlite3
+'@ | Set-Content -Encoding utf8 .gitignore
